@@ -180,7 +180,8 @@
     <names variable="author" suffix=". ">
       <!-- Добавить запятую между фамилией и инициалами автора: sort-separator=",&#160;", иначе sort-separator="&#160;" -->
       <!-- Сделать шрифт фамилий и инициалов авторов наклонным: font-style="italic", иначе font-style="normal" -->
-      <name et-al-min="2" et-al-use-first="1" suppress-min="4" initialize-with="." font-style="normal" font-weight="bold" name-as-sort-order="first" sort-separator="&#160;"/> 
+	  <!-- suppress-min="4" - для убирания первой фамилии, если пишется "и др, как следует из госта", для кафедры так не делаем -->
+      <name et-al-min="2" et-al-use-first="1" initialize-with="." font-style="normal" font-weight="bold" name-as-sort-order="first" sort-separator="&#160;"/> 
       <et-al term="and others"/>
     </names>
     <text variable="title"/>
