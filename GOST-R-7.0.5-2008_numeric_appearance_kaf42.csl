@@ -330,7 +330,7 @@
 
 <!-- Формат цитат для нумерованных ссылок вида [1] или [1, с. 55].
 Для включения этого вида форматирования расскомментировать этот блок, закомментировать предыдущий (для ссылок вида [Автор, год]).-->
-
+  <!-- 
   <citation et-al-min="4" et-al-use-first="1" collapse="citation-number">
     <sort>
       <key variable="citation-number"/>
@@ -343,6 +343,19 @@
           <text variable="locator"/>
         </if>        
       </choose>      
+	</layout>
+  </citation>
+  -->
+  
+  <!-- Формат цитат для нумерованных ссылок вида [1,2].
+Для включения этого вида форматирования расскомментировать этот блок, закомментировать предыдущий (для ссылок вида [Автор, год]).-->
+
+  <citation et-al-min="4" et-al-use-first="1" collapse="citation-number">
+    <sort>
+      <key variable="citation-number"/>
+    </sort>
+    <layout prefix="[" suffix="]" delimiter=", " page-range-format="">
+      <text variable="citation-number"/>     
 	</layout>
   </citation>
 
