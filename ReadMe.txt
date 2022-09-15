@@ -8,7 +8,7 @@
     Следующий стиль: Обычный
     
 Инструкция по импорту - https://firescience.ru/project/zoterogost/7322017.html
-Изменённый шиблон - GOST-R-7.0.5-2008_numeric_appearance_kaf42.csl
+Изменённый шаблон - GOST-R-7.0.5-2008_numeric_appearance_kaf42.csl
 
 
 Russian GOST 7.0.5-2008 for Zotero style.
